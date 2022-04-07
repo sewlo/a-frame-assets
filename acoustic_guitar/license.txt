@@ -1,0 +1,11 @@
+Model Information:
+* title:	Acoustic Guitar
+* source:	https://sketchfab.com/3d-models/acoustic-guitar-c913ddd80fae4d9e8efa40eac265ccf2
+* author:	javaxme (https://sketchfab.com/javaxme)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Acoustic Guitar" (https://sketchfab.com/3d-models/acoustic-guitar-c913ddd80fae4d9e8efa40eac265ccf2) by javaxme (https://sketchfab.com/javaxme) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
