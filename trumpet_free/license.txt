@@ -1,0 +1,11 @@
+Model Information:
+* title:	Trumpet_Free
+* source:	https://sketchfab.com/3d-models/trumpet-free-02d9fe6d3fed47d886f1e9f2a9491faa
+* author:	AlvaWong (https://sketchfab.com/alvawong06)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Trumpet_Free" (https://sketchfab.com/3d-models/trumpet-free-02d9fe6d3fed47d886f1e9f2a9491faa) by AlvaWong (https://sketchfab.com/alvawong06) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
