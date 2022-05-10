@@ -4,7 +4,6 @@ AFRAME.registerComponent('activate-audio', {
     dependencies: ['sound'],
   
     init: function () {
-      console.log("init activate-audio");
       
       this.el.setAttribute("sound", "src:https://raw.githubusercontent.com/sewlo/a-frame-assets/main/audio/silence.mp3");
       
