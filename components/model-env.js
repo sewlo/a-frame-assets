@@ -6,7 +6,7 @@
         schema: {
           env: {type: 'map'},
           envPath: {type: 'string', default: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Goat_Peak%2C_Cascades.jpg/1920px-Goat_Peak%2C_Cascades.jpg'},
-            intensity: {type: 'float', default: 3)
+            intensity: {type: 'float', default: 3}
         },
         
         init: function() {
