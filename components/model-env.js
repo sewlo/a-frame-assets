@@ -6,6 +6,7 @@
         schema: {
           env: {type: 'map'},
           envPath: {type: 'string', default: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Goat_Peak%2C_Cascades.jpg/1920px-Goat_Peak%2C_Cascades.jpg'},
+            intensity: {type: 'float', default: 3)
         },
         
         init: function() {
@@ -24,7 +25,7 @@
                     if (el.material) {
                       console.log(el.material);
                       el.material.envMap = cubeTex.texture;
-                      el.material.envMapIntensity = 3;
+                      el.material.envMapIntensity = this.data.intensity;
                       el.material.needsUpdate = true;
                     }
                   });
