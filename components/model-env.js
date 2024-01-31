@@ -6,7 +6,7 @@
         schema: {
           env: {type: 'map'},
           envPath: {type: 'string', default: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Goat_Peak%2C_Cascades.jpg/1920px-Goat_Peak%2C_Cascades.jpg'},
-            intensity: {type: 'float', default: 3}
+          intensity: {type: 'float', default: 3}
         },
         
         init: function() {
@@ -17,6 +17,7 @@
           
           this.el.addEventListener("model-loaded", e => {
             let mesh = this.el.getObject3D("mesh");
+            let intensity = this.data.intensity;
               var texture = new THREE.TextureLoader().load(
                 this.data.envPath,
                 function() {
@@ -25,7 +26,7 @@
                     if (el.material) {
                       console.log(el.material);
                       el.material.envMap = cubeTex.texture;
-                      el.material.envMapIntensity = this.data.intensity;
+                      el.material.envMapIntensity = intensity;
                       el.material.needsUpdate = true;
                     }
                   });
